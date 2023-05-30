@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HERALD ALUMNI</title>
+
+
+
+  <style>
+    /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+    @import url(http://weloveiconfonts.com/api/?family=entypo);
+
+    /* entypo */
+    [class*="entypo-"]:before {
+      font-family: 'entypo', sans-serif;
+    }
+
+    * {
+      border: 0;
+      padding: 0;
+      margin: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'avenir medium', sans-serif;
+      font-size: 1.1em;
+      color: #333333;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: 300;
+      font-size: 2em;
+      border-bottom: 2px solid #ef2c34;
+      margin-bottom: 1em;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ef2c34;
+      border-bottom: 1px solid #333333;
+      transition: all .4s ease;
+    }
+
+    a:hover {
+      color: #333333;
+      border-bottom: 1px solid #ef2c34;
+    }
+
+    nav {
+      width: 30%;
+      height: 100%;
+      position: fixed;
+      left: -30%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    .donate {
+      background-color: #dadee7;
+      border-right: 2px;
+      border-color: #ef2c34;
+    }
+
+    nav a {
+      display: block;
+      width: 100%;
+      padding: 2em;
+      box-sizing: border-box;
+      border-bottom: 2px solid #ef2c34;
+      text-transform: uppercase;
+    }
+
+    nav a:hover {
+      border-bottom: 2px solid #ef2c34;
+      background: rgba(238, 238, 238, 0.5);
+    }
+
+    .toggle-nav {
+      font-size: 3em;
+      background: transparent;
+      color: #ef2c34;
+      line-height: 1em;
+      padding-left: 0.2em;
+      padding-right: 0.2em;
+      cursor: pointer;
+      position: fixed;
+      top: 0;
+      left: 0%;
+      z-index: 100;
+      background: white;
+    }
+
+    .wrapper {
+      position: relative;
+      box-shadow: 0 0 1em #333333;
+    }
+
+    .wrapper section {
+      position: relative;
+      background: white;
+    }
+
+    .wrapper section article {
+      width: 50%;
+      margin: 0 auto;
+      padding: 2em 0;
+    }
+
+    .wrapper section article p {
+      margin-bottom: 1em;
+    }
+
+    .wrapper section article p:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .wrapper section:after {
+      content: "";
+      display: block;
+      position: relative;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 30em;
+      width: 100%;
+    }
+
+    .wrapper section:nth-child(1):after {
+      background-image: url("./bdh_photos-8.jpg");
+
+    }
+
+
+    .wrapper section:nth-child(2):after {
+      background-image: url("./bdh_photos-14.jpg");
+    }
+
+    .wrapper section:nth-child(3):after {
+      background-image: url("./bdh_photos-9.jpg");
+    }
+
+    @media only screen and (max-width: 600px) {
+      .wrapper section article {
+        width: 80%;
+      }
+
+      .wrapper section:after {
+        height: 15em;
+      }
+    }
+
+    .firstBar {
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    .linkBar {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .link {
+      width: 50px;
+      height: 50px;
+    }
+
+    .link1 {
+      width: 50px;
+      height: 50px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      text-decoration: none;
+      display: inline;
+      margin: 40px;
+    }
+  </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="firstBar"><a href="https://brownherald.z2systems.com/np/clients/brownherald/donation.jsp?campaign=1" class="donate">Donate</a> <a href="https://eepurl.com/sDrDr"> Subscribe</a></div>
+    <a href="./index.html">Home</a>
+    <a href="http://www.browndailyherald.com">The Herald</a>
+    <a href="./programs.html">Herald Programs</a>
+    <a href="./years.html">Herald Through The Years</a>
+    <a href="./more.html">More About The Herald</a>
+    <div class="linkBar">
+      <a href="https://www.linkedin.com/groups/1963851"> <img src="./linkedin.png" class="link"> </a>
+      <a href="https://www.facebook.com/groups/4970488321/"> <img src="./logo.png" class="link1"> </a>
+      <a href="https://brownherald.z2systems.com/np/clients/brownherald/login.jsp?orgId=brownherald&" style="margin-top:20px;"> Database</a>
+    </div>
+  </nav>
+  <button class="toggle-nav entypo-menu"></button>
+  <div class="wrapper">
+    <section>
+      <article>
+        <h1>All Years</h1>
+        <ul>
+          <li><a href="./2018.html">2018</a></li>
+          <li><a href="./2017.html">2017</a></li>
+          <li><a href="./2016.html">2016</a></li>
+          <li><a href="./2015.html">2015</a></li>
+          <li><a href="./2014.html">2014</a></li>
+          <li><a href="./2013.html">2013</a></li>
+          <li><a href="./2012.html">2012</a></li>
+          <li><a href="./2011.html">2011</a></li>
+          <li><a href="./2010.html">2010</a></li>
+          <li><a href="./2009.html">2009</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <h1>2011</h1>
+        <h3> Commencement</h3>
+        <p>We've had an exciting semester thus far, both at Brown and at The Herald. Recently, Chancellor Emeritus
+          Stephen Robert '62 P'91 pledged $1 million to the student activities endowment and has promised to lead
+          fundraising towards its $17 million goal. The Herald covered the lack of donations to the fund since President
+          Ruth Simmons initially pledged $100,000. The Herald then published an editorial a week later critiquing the
+          fund's stagnation. That same morning the editorial ran, Robert pledged $1 million to the endowment and
+          promised to lead fundraising efforts for the endowment.
+
+          More recently, our coverage of the Athletic Review Committee's plan to cut four varsity teams caused quite a
+          stir, as we headed into our final week of production. Simmons announced at the end of last month that the four
+          varsity teams will be allowed to compete next year.
+
+          We are thrilled to announce the beginning of The Herald's mentorship program! With this exciting program,
+          current staff members will be matched individually with alumni mentors to help build relationships and make
+          our network stronger.
+        </p>
+      </article>
+    </section>
+    <section>
+      <article>
+        <h3>End-of-year</h3>
+        <p>I am writing to ask you to help support The Herald's Financial Aid Initiative through our 2011 Annual Appeal.
+          Our funds to date are not enough to sustain the needs of students working at The Herald for the upcoming year.
+
+          This semester, new staffers have already played a role in The Herald's coverage of: President Simmons'
+          decision to step down from her position at the end of the academic year, her reflections, and students'
+          reactions; The upcoming reopening of the Metcalf Chemistry and Research Laboratory; Brown Football's victory
+          at the Governor's Cup at our second ever night game.
+        </p>
+      </article>
+    </section>
+  </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+
+  <script src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
